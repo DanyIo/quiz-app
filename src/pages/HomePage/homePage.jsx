@@ -109,6 +109,9 @@ const QuizDivStyled = styled(`div`)({
   width: "30%",
   marginBottom: "10px",
   borderRadius: "4px",
+  "@media (max-width: 768px)": {
+    width: "60%",
+  },
 });
 
 const PlayButtonStyled = styled(Button)({

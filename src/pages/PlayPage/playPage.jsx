@@ -143,6 +143,9 @@ const QuizDivStyled = styled(`div`)({
   boxShadow: "10px 10px 42px 0px rgba(0, 0, 0, 0.75)",
   display: "flex",
   justifyContent: "space-evenly",
+  "@media (max-width: 768px)": {
+    width: "70%",
+  },
 });
 const AnswerSectionStyled = styled("div")({
   width: "100%",

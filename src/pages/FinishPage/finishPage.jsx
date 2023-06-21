@@ -39,6 +39,9 @@ export const FinishPage = () => {
           backgroundColor: "black",
           borderRadius: 4,
           width: "40%",
+          "@media (max-width: 768px)": {
+            width: "60%",
+          },
         }}
       >
         <Typography variant="h6">Your stats</Typography>
